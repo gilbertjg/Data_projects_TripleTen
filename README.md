@@ -1,35 +1,64 @@
-# Data_projects_TripleTen
+# Gold Recovery Prediction Project
 
-This repository contains data science projects completed during the TripleTen Data Science program. Each project demonstrates key data analysis and machine learning skills applied to real-world problems.
-
-## Projects Overview
-
-1. **Customer Churn Prediction**
-   - **Goal:** Predict customer churn for a bank using machine learning models.
-   - **Skills:** Data preprocessing, classification, feature engineering.
-   - **Results:** Improved retention strategies with a 15% churn reduction.
-
-2. **Game Store Sales Analysis**
-   - **Goal:** Analyze sales data to identify profitable trends for a gaming store.
-   - **Skills:** SQL, statistical analysis, visualization.
-   - **Results:** Insights on sales trends and profitable platforms.
-
-3. **Gold Recovery Optimization**
-   - **Goal:** Optimize gold recovery efficiency using predictive modeling.
-   - **Skills:** Regression analysis, feature importance.
-   - **Results:** Improved recovery rates and operational efficiency.
-
-4. **Oil Well Profitability Analysis**
-   - **Goal:** Identify profitable oil well regions with risk assessment.
-   - **Skills:** Risk analysis, linear regression, bootstrapping.
-   - **Results:** Recommended optimal regions with low loss probability.
-
-5. **Subscriber Plan Recommendation**
-   - **Goal:** Predict suitable subscriber plans based on usage patterns.
-   - **Skills:** Classification, hyperparameter tuning.
-   - **Results:** Enhanced plan recommendations with 75% accuracy.
+**Description:**  
+This project develops a machine learning model to predict gold recovery from ore during extraction and purification. The goal is to help Zyfra optimize gold mining processes.
 
 ---
 
-## About
-This repository highlights projects showcasing data science expertise, including Python, SQL, machine learning, and data visualization.
+## Table of Contents
+
+1. Introduction
+2. Data
+3. Methodology
+4. Results
+5. Technologies Used
+6. How to Run
+
+---
+
+### Introduction
+
+The project uses historical data to analyze factors affecting gold recovery and create a predictive model to improve mining efficiency.
+
+---
+
+### Data
+
+- **Source:** Historical gold recovery data from Zyfra.  
+- **Key Features:** Ore types, reagents, and recovery rates.  
+- **Target:** Gold recovery percentage.  
+- **Preprocessing:** Handled missing data and scaled features.
+
+---
+
+### Methodology
+
+1. Cleaned & explored data.  
+2. Tested regression models (e.g., Linear Regression, Random Forest, Gradient Boosting).  
+3. Evaluated models using RMSE.  
+4. Tuned model hyperparameters for better performance.
+
+---
+
+### Results
+
+- The best model achieved an RMSE of **X.XX**.  
+- Key factors influencing recovery rates were identified, aiding process optimization.
+
+---
+
+### Technologies Used
+
+- Python  
+- Pandas  
+- Scikit-learn  
+- Matplotlib  
+- XGBoost  
+
+---
+
+### How to Run
+
+1. Clone the repository:  
+   ```bash
+   git clone https://github.com/gilbertjg/Data_projects_TripleTen.git
